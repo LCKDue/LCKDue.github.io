@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane Photo Gallery</title>
+    <style>
+        body {
+            background-image: url('Background.jpg');
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #F4E042;
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        header img {
+            width: 500px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #F4E042;
+            font-weight: bold;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 3px;
+            width: 50%;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .highlight {
+            width: 50%;
+            text-align: center;
+        }
+
+        .highlight img {
+            width: 97%;
+            height: 1170px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 16px;
+            color: #F4E042;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="arcaneee.png" alt="Arcane Logo">
+        <p class="description">
+            Explore the dazzling world of Piltover and the gritty streets of Zaun, where steampunk tech and magic collide in a visually stunning journey of love, betrayal, and war. 
+            Witness the battle for control of powerful hextech, the rise of powerful and conflicted characters, and the deep-rooted political struggles that shape the fate of two cities. 
+            A tale of ambition, revolution, and the cost of progress, where no one is truly innocent, and every action ripples through the fabric of this fractured world.
+        </p>
+    </header>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <div>
+                <img src="Jinx1.webp" alt="Jinx" title="Jinx">
+            </div>
+            <div>
+                <img src="Vi1.gif" alt="Vi" title=Vi">
+            </div>
+            <div>
+                <img src="Cait1.gif" alt="Caitlyn" title="Caitlyn">
+            </div>
+            <div>
+                <img src="Jinx1.webp" alt="Jinx" title="Jinx">
+            </div>
+
+            <div>
+                <img src="Viktor1.gif" alt="Viktor" title="Viktor">
+            </div>
+            <div>
+                <img src="Heimer2.gif" alt="Heimer" title="Heimer">
+            </div>
+            <div>
+                <img src="Poro1.gif" alt="Poro" title="Poro">
+            </div>
+            <div>
+                <img src="Silco1.gif" alt="Silco" title="Silco">
+            </div>
+
+            <div>
+                <img src="Vander1.gif" alt="Vander" title="Vander">
+            </div>
+            <div>
+                <img src="Poro1.gif" alt="Poro" title="Poro">
+            </div>
+            <div>
+                <img src="Heimer2.gif" alt="Heimer" title="Heimer">
+            </div>
+            <div>
+                <img src="Ekko1.gif" alt="Ekko" title="Ekko">
+            </div>
+            <div>
+                <img src="Jinx1.webp" alt="Jinx" title="Jinx">
+            </div>
+            <div>
+                <img src="Sevika1.webp" alt="Sevika" title="Sevika">
+            </div>
+            <div>
+                <img src="Mel1.gif" alt="Mel" title="Mel">
+            </div>
+            <div>
+                <img src="Jinx1.webp" alt="Jinx" title="Jinx">
+            </div>
+        </div>
+
+        <div class="highlight">
+            <img src="Arcaned.webp" alt="Highlight Photo" title="Highlight Photo">
+            <p>ARCANE - LEAGUE OF LEGENDS</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Click on the images to explore more about the characters of Arcane!</p>
+    </footer>
+</body>
+</html>
